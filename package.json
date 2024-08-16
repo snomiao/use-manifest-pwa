@@ -8,9 +8,16 @@
     "@types/react": "^18.3.1"
   },
   "peerDependencies": {
+    "react": "^18.3.1",
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "react": "^18.3.1"
-  }
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "version": "1.0.0",
+  "description": "wip, react use manifest pwa",
+  "main": "dist/index.js",
+  "author": "snomiao@gmail.com",
+  "license": "MIT"
 }

@@ -15,6 +15,14 @@ export type Manifest = {
       [mimeType: string]: string[];
     }[];
   }[];
+  /**
+   * Note:
+   * An icons property that includes a 192x192 px and a 512x512 px icon
+   * is required for PWA installations in chrome.
+   * 
+   * ref:
+   * - [Web app manifest does not meet the installability requirements  \|  Lighthouse  |  Chrome for Developers]( https://developer.chrome.com/docs/lighthouse/pwa/installable-manifest?hl=en )
+   */
   icons?: {
     src: string;
     type?: string;
