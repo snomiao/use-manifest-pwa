@@ -2,10 +2,18 @@
   "name": "use-manifest-pwa",
   "module": "dist/useManifestPWA.js",
   "types": "dist/useManifestPWA.d.ts",
+  "keywords": [
+    "react",
+    "typescript",
+    "pwa",
+    "manifest",
+    "useManifestPWA"
+  ],
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "^18.3.1",
+    "bun": "^1.2.13",
     "husky": "^9.1.7",
     "semantic-release": "^24.2.3"
   },
@@ -15,11 +23,11 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts",
+    "start": "bun src/index.ts",
     "prepare": "husky"
   },
   "version": "1.0.0",
-  "description": "wip, react use manifest pwa",
+  "description": "A React hook for managing Progressive Web App (PWA) manifests. Designed to simplify the integration and manipulation of web app manifests in your React applications.",
   "main": "dist/index.js",
   "author": "snomiao@gmail.com",
   "license": "MIT"

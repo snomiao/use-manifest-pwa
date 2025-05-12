@@ -1,6 +1,6 @@
 # use-manifest-pwa
 
-A React hook for managing Progressive Web App (PWA) manifests. This is a work-in-progress library, designed to simplify the integration and manipulation of web app manifests in your React applications.
+A React hook for managing Progressive Web App (PWA) manifests. Designed to simplify the integration and manipulation of web app manifests in your React applications.
 
 ## Features
 
