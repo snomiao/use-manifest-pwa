@@ -6,9 +6,10 @@ const window = new Window({
   height: 768,
 });
 
-globalThis.window = window as unknown as Window & typeof globalThis;
-globalThis.document = window.document;
-globalThis.HTMLElement = window.HTMLElement;
-globalThis.HTMLLinkElement = window.HTMLLinkElement;
-globalThis.URL = window.URL;
-globalThis.Blob = window.Blob;
+const g = globalThis as any;
+g.window = window;
+g.document = window.document;
+g.HTMLElement = window.HTMLElement;
+g.HTMLLinkElement = window.HTMLLinkElement;
+g.URL = window.URL;
+g.Blob = window.Blob;
