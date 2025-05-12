@@ -42,6 +42,10 @@ const App = () => {
 export default App;
 ```
 
+User's browser will Show an install button like this:
+
+![Install Button](./docs/install-button.png)
+
 ### Custom Configuration
 
 You can customize your manifest by passing different configurations to the `useManifest` hook. The following example sets up a manifest with a custom theme and icons:
