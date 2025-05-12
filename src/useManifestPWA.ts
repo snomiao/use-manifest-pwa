@@ -10,6 +10,7 @@ import type { Manifest } from "./Manifest";
  * icons
  * start_url
  * display and/or display_override
+ * 
  * @param manifest
  * @returns
  */
