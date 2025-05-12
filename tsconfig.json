@@ -26,5 +26,15 @@
     "declaration": true,
     "declarationMap": true,
     "outDir": "./dist",
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "coverage",
+    "**/*.test.tsx",
+    "**/*.test.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.ts",
+  ]
 }

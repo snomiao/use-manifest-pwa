@@ -12,15 +12,15 @@
   "type": "module",
   "devDependencies": {
     "@testing-library/react": "^16.3.0",
-    "@types/bun": "^1.2.13",
-    "@types/react": "^18.3.1",
+    "@types/bun": "latest",
+    "@types/react": "^19",
     "bun": "^1.2.13",
     "happy-dom": "^17.4.7",
     "husky": "^9.1.7",
     "semantic-release": "^24.2.3"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
+    "react": "^19.1.0",
     "typescript": "^5.0.0"
   },
   "scripts": {
@@ -33,8 +33,5 @@
   "description": "A React hook for managing Progressive Web App (PWA) manifests. Designed to simplify the integration and manipulation of web app manifests in your React applications.",
   "main": "dist/index.js",
   "author": "snomiao@gmail.com",
-  "license": "MIT",
-  "dependencies": {
-    "@types/jest": "^29.5.14"
-  }
+  "license": "MIT"
 }
