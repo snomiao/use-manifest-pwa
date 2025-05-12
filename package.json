@@ -23,6 +23,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "test": "bun test",
     "start": "bun src/index.ts",
     "prepare": "husky"
   },
