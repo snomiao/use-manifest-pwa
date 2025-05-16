@@ -16,7 +16,7 @@
   "license": "MIT",
   "author": "snomiao <snomiao@gmail.com>",
   "files": [
-    "*.ts",
+    "**/*.ts",
     "dist"
   ],
   "main": "dist/index.js",
